@@ -1,0 +1,9 @@
+.weather {
+  position: absolute;
+  bottom: 10vmin;
+  left: 21vmin;
+  font-size: 25px;
+  font-weight: bold;
+  word-spacing: 10px;
+  color: white;
+}

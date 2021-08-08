@@ -1,0 +1,14 @@
+.date {
+  position: absolute;
+  top: 35vmin;
+  font-size: 15vmin;
+  font-weight: bold;
+  color: white;
+}
+
+.day {
+  position: relative;
+  left: 1vmin;
+  font-size: 5vmin;
+  line-height: 150%;
+}

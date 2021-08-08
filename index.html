@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vanillaJS app</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form class="hello-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+    </form>
+
+    <section class="left-section">
+      <div class="hello hidden">
+        <span class="hello-text--first"></span><br />
+        <span class="hello-text--second"></span>
+      </div>
+
+      <div class="date">
+        <h2 class="day"></h2>
+        <h1 class="clock"></h1>
+      </div>
+    </section>
+
+    <section class="right-section">
+      <div class="todo">
+        <ul class="todo-list"></ul>
+        <form class="todo-form">
+          <input required type="text" size="30" placeholder="Write a To Do and Press Enter" />
+        </form>
+      </div>
+    </section>
+
+    <div class="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/bgimage.js"></script>
+    <script src="js/hello.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

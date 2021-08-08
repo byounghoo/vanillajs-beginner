@@ -1,0 +1,30 @@
+.hello-form {
+  position: absolute;
+  top: 30vmin;
+  left: 10vmin;
+}
+
+.hello-form input:first-child {
+  border-style: none;
+  border-radius: 10px;
+  height: 10vmin;
+  font-size: 5vmin;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hello-form input:first-child::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.hello-form input:first-child:focus::placeholder {
+  opacity: 0;
+}
+
+.hello {
+  color: white;
+  font-size: 10vmin;
+  font-weight: bold;
+  line-height: 130%;
+}

@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "bgimage.css";
+@import "hello.css";
+@import "clock.css";
+@import "todo.css";
+@import "weather.css";
+
+.hidden {
+  display: none;
+}
+
+.left-section {
+  position: absolute;
+  top: 15vmin;
+  left: 10vmin;
+}
+
+.right-section {
+  position: absolute;
+  bottom: 28vmin;
+  right: 10vmin;
+}
